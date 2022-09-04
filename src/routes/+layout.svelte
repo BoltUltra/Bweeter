@@ -1,7 +1,5 @@
-<script>
-	import '../app.css';
+<script lang="ts">
+	import '$root/global.css';
 </script>
 
-<div>
-	<slot />
-</div>
+<slot />
